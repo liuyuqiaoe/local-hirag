@@ -1,0 +1,1528 @@
+{
+  "10": {
+    "report_string": "# Bitcoin and Mining Community\n\nSatoshi Nakamoto's pivotal contribution\n\n## [\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## {\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## \"\n\n\n\n## s\n\n\n\n## u\n\n\n\n## m\n\n\n\n## m\n\n\n\n## a\n\n\n\n## r\n\n\n\n## y\n\n\n\n## \"\n\n\n\n## :\n\n\n\n##  \n\n\n\n## \"\n\n\n\n## B\n\n\n\n## i\n\n\n\n## t\n\n\n\n## c\n\n\n\n## o\n\n\n\n## i\n\n\n\n## n\n\n\n\n## '\n\n\n\n## s\n\n\n\n##  \n\n\n\n## f\n\n\n\n## o\n\n\n\n## u\n\n\n\n## n\n\n\n\n## d\n\n\n\n## a\n\n\n\n## t\n\n\n\n## i\n\n\n\n## o\n\n\n\n## n\n\n\n\n## a\n\n\n\n## l\n\n\n\n##  \n\n\n\n## r\n\n\n\n## o\n\n\n\n## l\n\n\n\n## e\n\n\n\n##  \n\n\n\n## i\n\n\n\n## n\n\n\n\n##  \n\n\n\n## t\n\n\n\n## h\n\n\n\n## e\n\n\n\n##  \n\n\n\n## c\n\n\n\n## o\n\n\n\n## m\n\n\n\n## m\n\n\n\n## u\n\n\n\n## n\n\n\n\n## i\n\n\n\n## t\n\n\n\n## y\n\n",
+    "report_json": {
+      "title": "Bitcoin and Mining Community",
+      "summary": "Satoshi Nakamoto's pivotal contribution",
+      "rating": 7.5,
+      "rating_explanation": "The impact severity rating is high due to Bitcoin's influence on global finance and potential implications for financial regulations.",
+      "findings": "[\n        {\n            \"summary\": \"Bitcoin's foundational role in the community",
+      "explanation": "Satoshi Nakamoto, as the pseudonymous creator of Bitcoin, is a central figure in this community, whose ideas launched the entire cryptocurrency movement. Nakamoto's original white paper outlined core principles that remain foundational in Bitcoin's operation today. This anonymity raises questions about accountability and governance within the Bitcoin community, sparking ongoing discussions about the future leadership and evolution of Bitcoin."
+    },
+    "level": 1,
+    "title": "Cluster 10",
+    "edges": [
+      [
+        "\"MINING\"",
+        "\"PROOF-OF-WORK\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"DOUBLE-SPENDING PROBLEM\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"PHYSICAL CURRENCY\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"TRANSACTION FEES\""
+      ],
+      [
+        "\"MINING\"",
+        "\"TRANSACTION FEES\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"DIGITAL SIGNATURES\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"PEER-TO-PEER NETWORK\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"FINANCIAL INSTITUTIONS\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"BLOCKCHAIN\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"HASH FUNCTION\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"TRANSACTION VALUE\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"ONLINE PAYMENTS\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"DIGITAL COIN\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"SATOSHI NAKAMOTO\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"MINING\""
+      ],
+      [
+        "\"GOLD MINERS\"",
+        "\"MINING\""
+      ]
+    ],
+    "nodes": [
+      "\"TRANSACTION FEES\"",
+      "\"SATOSHI NAKAMOTO\"",
+      "\"PHYSICAL CURRENCY\"",
+      "\"BITCOIN\"",
+      "\"MINING\""
+    ],
+    "chunk_ids": [
+      "chunk-791d2acd2d1a49a5745b577a79633aa1",
+      "",
+      "chunk-25535d09f809e5341e9ab7f9e330828d"
+    ],
+    "occurrence": 0.6,
+    "sub_communities": []
+  },
+  "15": {
+    "report_string": "# Blockchain Technology and Its Ecosystem\n\nPublic History of Transactions as a trust mechanism\n\n## [\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## {\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## \"\n\n\n\n## s\n\n\n\n## u\n\n\n\n## m\n\n\n\n## m\n\n\n\n## a\n\n\n\n## r\n\n\n\n## y\n\n\n\n## \"\n\n\n\n## :\n\n\n\n##  \n\n\n\n## \"\n\n\n\n## B\n\n\n\n## l\n\n\n\n## o\n\n\n\n## c\n\n\n\n## k\n\n\n\n## c\n\n\n\n## h\n\n\n\n## a\n\n\n\n## i\n\n\n\n## n\n\n\n\n##  \n\n\n\n## a\n\n\n\n## s\n\n\n\n##  \n\n\n\n## t\n\n\n\n## h\n\n\n\n## e\n\n\n\n##  \n\n\n\n## f\n\n\n\n## o\n\n\n\n## u\n\n\n\n## n\n\n\n\n## d\n\n\n\n## a\n\n\n\n## t\n\n\n\n## i\n\n\n\n## o\n\n\n\n## n\n\n\n\n## a\n\n\n\n## l\n\n\n\n##  \n\n\n\n## t\n\n\n\n## e\n\n\n\n## c\n\n\n\n## h\n\n\n\n## n\n\n\n\n## o\n\n\n\n## l\n\n\n\n## o\n\n\n\n## g\n\n\n\n## y\n\n",
+    "report_json": {
+      "title": "Blockchain Technology and Its Ecosystem",
+      "summary": "Public History of Transactions as a trust mechanism",
+      "rating": 8.5,
+      "rating_explanation": "The impact severity rating is high due to the significant role blockchain plays in modern financial transactions and the potential risks associated with its technology.",
+      "findings": "[\n        {\n            \"summary\": \"Blockchain as the foundational technology",
+      "explanation": "The public history of transactions within the blockchain represents the transparent ledger where all transactions are logged"
+    },
+    "level": 1,
+    "title": "Cluster 15",
+    "edges": [
+      [
+        "\"BLOCKCHAIN\"",
+        "\"HASH FUNCTION\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"DIGITAL COIN\""
+      ],
+      [
+        "\"BLOCK HEADER\"",
+        "\"BLOCKCHAIN\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"MERKLE BRANCH\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"CHAIN OF BLOCKS\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"TIMESTAMP SERVER\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"CHAIN\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"PROOF-OF-WORK\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"HASH FUNCTION\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"HONEST NODES\""
+      ],
+      [
+        "\"ATTACKER\"",
+        "\"BLOCKCHAIN\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"BLOCKCHAIN\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"NODES\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"NETWORK NODES\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"PUBLIC HISTORY OF TRANSACTIONS\""
+      ],
+      [
+        "\"HASH FUNCTION\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"NETWORK NODES\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"PUBLIC HISTORY OF TRANSACTIONS\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"HASH FUNCTIONS\""
+      ]
+    ],
+    "nodes": [
+      "\"MERKLE BRANCH\"",
+      "\"BLOCKCHAIN\"",
+      "\"NETWORK NODES\"",
+      "\"PUBLIC HISTORY OF TRANSACTIONS\"",
+      "\"CHAIN OF BLOCKS\"",
+      "\"TIMESTAMP SERVER\"",
+      "\"HASH FUNCTION\""
+    ],
+    "chunk_ids": [
+      "chunk-791d2acd2d1a49a5745b577a79633aa1",
+      "chunk-cf5435cdf1920a0c57737d73e5cb8737",
+      "chunk-d85f91a3bce6160db2133aed53c46df6",
+      "chunk-25535d09f809e5341e9ab7f9e330828d",
+      "chunk-b59954073c13f9f2964da44d7c447d16"
+    ],
+    "occurrence": 1.0,
+    "sub_communities": []
+  },
+  "9": {
+    "report_string": "# Blockchain Technology and Proof-of-Work Community\n\nPeer-to-Peer networks as a foundation for transaction processing\n\n## [\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## {\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## \"\n\n\n\n## s\n\n\n\n## u\n\n\n\n## m\n\n\n\n## m\n\n\n\n## a\n\n\n\n## r\n\n\n\n## y\n\n\n\n## \"\n\n\n\n## :\n\n\n\n##  \n\n\n\n## \"\n\n\n\n## C\n\n\n\n## e\n\n\n\n## n\n\n\n\n## t\n\n\n\n## r\n\n\n\n## a\n\n\n\n## l\n\n\n\n##  \n\n\n\n## r\n\n\n\n## o\n\n\n\n## l\n\n\n\n## e\n\n\n\n##  \n\n\n\n## o\n\n\n\n## f\n\n\n\n##  \n\n\n\n## P\n\n\n\n## r\n\n\n\n## o\n\n\n\n## o\n\n\n\n## f\n\n\n\n## -\n\n\n\n## o\n\n\n\n## f\n\n\n\n## -\n\n\n\n## W\n\n\n\n## o\n\n\n\n## r\n\n\n\n## k\n\n\n\n##  \n\n\n\n## i\n\n\n\n## n\n\n\n\n##  \n\n\n\n## b\n\n\n\n## l\n\n\n\n## o\n\n\n\n## c\n\n\n\n## k\n\n\n\n## c\n\n\n\n## h\n\n\n\n## a\n\n\n\n## i\n\n\n\n## n\n\n\n\n##  \n\n\n\n## s\n\n\n\n## e\n\n\n\n## c\n\n\n\n## u\n\n\n\n## r\n\n\n\n## i\n\n\n\n## t\n\n\n\n## y\n\n",
+    "report_json": {
+      "title": "Blockchain Technology and Proof-of-Work Community",
+      "summary": "Peer-to-Peer networks as a foundation for transaction processing",
+      "rating": 7.5,
+      "rating_explanation": "The impact severity rating is high due to the critical reliance on Proof-of-Work in blockchain systems, affecting security and integrity in online transactions.",
+      "findings": "[\n        {\n            \"summary\": \"Central role of Proof-of-Work in blockchain security",
+      "explanation": "The utilization of a Peer-to-Peer network structure is fundamental to Bitcoin's operation, allowing direct communication between users without reliance on a central authority. This decentralization enhances the resilience of the network and facilitates the efficient processing of transactions, rendering the process faster and more secure compared to conventional systems that depend on central financial institutions."
+    },
+    "level": 1,
+    "title": "Cluster 9",
+    "edges": [
+      [
+        "\"DIGITAL COIN\"",
+        "\"ONLINE PAYMENTS\""
+      ],
+      [
+        "\"MINING\"",
+        "\"PROOF-OF-WORK\""
+      ],
+      [
+        "\"DOUBLE-SPENDING PROBLEM\"",
+        "\"PROOF-OF-WORK\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"DOUBLE-SPENDING PROBLEM\""
+      ],
+      [
+        "\"MINING DIFFICULTY\"",
+        "\"PROOF-OF-WORK\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"PEER-TO-PEER NETWORK\""
+      ],
+      [
+        "\"CPU POWER\"",
+        "\"PROOF-OF-WORK\""
+      ],
+      [
+        "\"PEER-TO-PEER NETWORK\"",
+        "\"PROOF-OF-WORK\""
+      ],
+      [
+        "\"DOUBLE-SPENDING PROBLEM\"",
+        "\"PEER-TO-PEER NETWORK\""
+      ],
+      [
+        "\"DOUBLE-SPENDING PROBLEM\"",
+        "\"FINANCIAL INSTITUTION\""
+      ],
+      [
+        "\"HASHCASH\"",
+        "\"PROOF-OF-WORK\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"PROOF-OF-WORK\""
+      ],
+      [
+        "\"ONLINE PAYMENTS\"",
+        "\"PEER-TO-PEER NETWORK\""
+      ],
+      [
+        "\"PROOF-OF-WORK\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"ONLINE PAYMENTS\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"ONLINE PAYMENTS\""
+      ]
+    ],
+    "nodes": [
+      "\"HASHCASH\"",
+      "\"PROOF-OF-WORK\"",
+      "\"ONLINE PAYMENTS\"",
+      "\"FINANCIAL INSTITUTION\"",
+      "\"DOUBLE-SPENDING PROBLEM\"",
+      "\"PEER-TO-PEER NETWORK\""
+    ],
+    "chunk_ids": [
+      "chunk-791d2acd2d1a49a5745b577a79633aa1",
+      "chunk-25535d09f809e5341e9ab7f9e330828d",
+      "chunk-d85f91a3bce6160db2133aed53c46df6",
+      "chunk-b59954073c13f9f2964da44d7c447d16"
+    ],
+    "occurrence": 0.8,
+    "sub_communities": []
+  },
+  "12": {
+    "report_string": "# Bitcoin and Financial Transactions\n\nInterrelationship between financial institutions and transaction costs\n\n## [\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## {\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## \"\n\n\n\n## s\n\n\n\n## u\n\n\n\n## m\n\n\n\n## m\n\n\n\n## a\n\n\n\n## r\n\n\n\n## y\n\n\n\n## \"\n\n\n\n## :\n\n\n\n##  \n\n\n\n## \"\n\n\n\n## B\n\n\n\n## i\n\n\n\n## t\n\n\n\n## c\n\n\n\n## o\n\n\n\n## i\n\n\n\n## n\n\n\n\n## '\n\n\n\n## s\n\n\n\n##  \n\n\n\n## i\n\n\n\n## n\n\n\n\n## d\n\n\n\n## e\n\n\n\n## p\n\n\n\n## e\n\n\n\n## n\n\n\n\n## d\n\n\n\n## e\n\n\n\n## n\n\n\n\n## c\n\n\n\n## e\n\n\n\n##  \n\n\n\n## f\n\n\n\n## r\n\n\n\n## o\n\n\n\n## m\n\n\n\n##  \n\n\n\n## f\n\n\n\n## i\n\n\n\n## n\n\n\n\n## a\n\n\n\n## n\n\n\n\n## c\n\n\n\n## i\n\n\n\n## a\n\n\n\n## l\n\n\n\n##  \n\n\n\n## i\n\n\n\n## n\n\n\n\n## s\n\n\n\n## t\n\n\n\n## i\n\n\n\n## t\n\n\n\n## u\n\n\n\n## t\n\n\n\n## i\n\n\n\n## o\n\n\n\n## n\n\n\n\n## s\n\n",
+    "report_json": {
+      "title": "Bitcoin and Financial Transactions",
+      "summary": "Interrelationship between financial institutions and transaction costs",
+      "rating": 7.5,
+      "rating_explanation": "The impact severity rating is high due to the potential transformative effects of Bitcoin on traditional financial systems and transaction dynamics.",
+      "findings": "[\n        {\n            \"summary\": \"Bitcoin's independence from financial institutions",
+      "explanation": "Financial institutions traditionally serve as intermediaries for transactions"
+    },
+    "level": 1,
+    "title": "Cluster 12",
+    "edges": [
+      [
+        "\"FINANCIAL INSTITUTIONS\"",
+        "\"TRANSACTION COSTS\""
+      ],
+      [
+        "\"FINANCIAL INSTITUTIONS\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"CASUAL TRANSACTIONS\"",
+        "\"TRANSACTION COSTS\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"FINANCIAL INSTITUTIONS\""
+      ],
+      [
+        "\"DISPUTES\"",
+        "\"FINANCIAL INSTITUTIONS\""
+      ]
+    ],
+    "nodes": [
+      "\"DISPUTES\"",
+      "\"FINANCIAL INSTITUTIONS\"",
+      "\"CASUAL TRANSACTIONS\"",
+      "\"TRANSACTION COSTS\""
+    ],
+    "chunk_ids": [
+      "chunk-791d2acd2d1a49a5745b577a79633aa1"
+    ],
+    "occurrence": 0.2,
+    "sub_communities": []
+  },
+  "13": {
+    "report_string": "# Blockchain Transactions and Double-Spending\n\nImpact of Transaction Fees\n\n## [\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## {\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## \"\n\n\n\n## s\n\n\n\n## u\n\n\n\n## m\n\n\n\n## m\n\n\n\n## a\n\n\n\n## r\n\n\n\n## y\n\n\n\n## \"\n\n\n\n## :\n\n\n\n##  \n\n\n\n## \"\n\n\n\n## C\n\n\n\n## e\n\n\n\n## n\n\n\n\n## t\n\n\n\n## r\n\n\n\n## a\n\n\n\n## l\n\n\n\n## i\n\n\n\n## t\n\n\n\n## y\n\n\n\n##  \n\n\n\n## o\n\n\n\n## f\n\n\n\n##  \n\n\n\n## T\n\n\n\n## r\n\n\n\n## a\n\n\n\n## n\n\n\n\n## s\n\n\n\n## a\n\n\n\n## c\n\n\n\n## t\n\n\n\n## i\n\n\n\n## o\n\n\n\n## n\n\n\n\n## s\n\n\n\n##  \n\n\n\n## i\n\n\n\n## n\n\n\n\n##  \n\n\n\n## t\n\n\n\n## h\n\n\n\n## e\n\n\n\n##  \n\n\n\n## B\n\n\n\n## l\n\n\n\n## o\n\n\n\n## c\n\n\n\n## k\n\n\n\n## c\n\n\n\n## h\n\n\n\n## a\n\n\n\n## i\n\n\n\n## n\n\n",
+    "report_json": {
+      "title": "Blockchain Transactions and Double-Spending",
+      "summary": "Impact of Transaction Fees",
+      "rating": 7.5,
+      "rating_explanation": "The impact severity rating is relatively high due to the significant consequences of transaction integrity and the risks posed by double-spending in cryptocurrency systems.",
+      "findings": "[\n        {\n            \"summary\": \"Centrality of Transactions in the Blockchain",
+      "explanation": "Transaction fees play a significant role in incentivizing miners to validate transactions. When the input value of a transaction exceeds its output value"
+    },
+    "level": 1,
+    "title": "Cluster 13",
+    "edges": [
+      [
+        "\"TRANSACTION VALUE\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"DOUBLE-SPENDING\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"NODES\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"GREEDY ATTACKER\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"FINANCIAL INSTITUTIONS\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"HASH FUNCTION\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"TRANSACTION FEE\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"BLOCK HEADER\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"ONLINE PAYMENTS\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"TRANSACTION VALUE\""
+      ],
+      [
+        "\"DOUBLE-SPENDING\"",
+        "\"TRANSACTION\""
+      ]
+    ],
+    "nodes": [
+      "\"TRANSACTION VALUE\"",
+      "\"DOUBLE-SPENDING\"",
+      "\"TRANSACTION\""
+    ],
+    "chunk_ids": [
+      "chunk-791d2acd2d1a49a5745b577a79633aa1",
+      "chunk-25535d09f809e5341e9ab7f9e330828d",
+      "chunk-d85f91a3bce6160db2133aed53c46df6",
+      "chunk-b59954073c13f9f2964da44d7c447d16"
+    ],
+    "occurrence": 0.8,
+    "sub_communities": []
+  },
+  "8": {
+    "report_string": "# Digital Coin and Escrow Mechanism Community\n\nPotential Compliance and Regulation Issues\n\n## [\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## {\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## \"\n\n\n\n## s\n\n\n\n## u\n\n\n\n## m\n\n\n\n## m\n\n\n\n## a\n\n\n\n## r\n\n\n\n## y\n\n\n\n## \"\n\n\n\n## :\n\n\n\n##  \n\n\n\n## \"\n\n\n\n## S\n\n\n\n## i\n\n\n\n## g\n\n\n\n## n\n\n\n\n## i\n\n\n\n## f\n\n\n\n## i\n\n\n\n## c\n\n\n\n## a\n\n\n\n## n\n\n\n\n## c\n\n\n\n## e\n\n\n\n##  \n\n\n\n## o\n\n\n\n## f\n\n\n\n##  \n\n\n\n## D\n\n\n\n## i\n\n\n\n## g\n\n\n\n## i\n\n\n\n## t\n\n\n\n## a\n\n\n\n## l\n\n\n\n##  \n\n\n\n## C\n\n\n\n## o\n\n\n\n## i\n\n\n\n## n\n\n\n\n##  \n\n\n\n## f\n\n\n\n## o\n\n\n\n## r\n\n\n\n##  \n\n\n\n## T\n\n\n\n## r\n\n\n\n## a\n\n\n\n## n\n\n\n\n## s\n\n\n\n## a\n\n\n\n## c\n\n\n\n## t\n\n\n\n## i\n\n\n\n## o\n\n\n\n## n\n\n\n\n## s\n\n",
+    "report_json": {
+      "title": "Digital Coin and Escrow Mechanism Community",
+      "summary": "Potential Compliance and Regulation Issues",
+      "rating": 7.5,
+      "rating_explanation": "The impact severity rating reflects the community's pivotal role in modern financial transactions and the potential implications of transaction security challenges.",
+      "findings": "[\n        {\n            \"summary\": \"Significance of Digital Coin for Transactions",
+      "explanation": "As digital coins continue to rise in prominence"
+    },
+    "level": 1,
+    "title": "Cluster 8",
+    "edges": [
+      [
+        "\"DIGITAL COIN\"",
+        "\"ESCROW MECHANISM\""
+      ],
+      [
+        "\"DIGITAL COIN\"",
+        "\"ONLINE PAYMENTS\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"DIGITAL COIN\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"DIGITAL COIN\""
+      ]
+    ],
+    "nodes": [
+      "\"ESCROW MECHANISM\"",
+      "\"DIGITAL COIN\""
+    ],
+    "chunk_ids": [
+      "chunk-791d2acd2d1a49a5745b577a79633aa1"
+    ],
+    "occurrence": 0.2,
+    "sub_communities": []
+  },
+  "17": {
+    "report_string": "# Blockchain Network and Nodes Community\n\nUnstructured Simplicity\n\n## [\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## {\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## \"\n\n\n\n## s\n\n\n\n## u\n\n\n\n## m\n\n\n\n## m\n\n\n\n## a\n\n\n\n## r\n\n\n\n## y\n\n\n\n## \"\n\n\n\n## :\n\n\n\n##  \n\n\n\n## \"\n\n\n\n## R\n\n\n\n## o\n\n\n\n## l\n\n\n\n## e\n\n\n\n##  \n\n\n\n## o\n\n\n\n## f\n\n\n\n##  \n\n\n\n## N\n\n\n\n## o\n\n\n\n## d\n\n\n\n## e\n\n\n\n## s\n\n\n\n##  \n\n\n\n## i\n\n\n\n## n\n\n\n\n##  \n\n\n\n## t\n\n\n\n## h\n\n\n\n## e\n\n\n\n##  \n\n\n\n## B\n\n\n\n## l\n\n\n\n## o\n\n\n\n## c\n\n\n\n## k\n\n\n\n## c\n\n\n\n## h\n\n\n\n## a\n\n\n\n## i\n\n\n\n## n\n\n\n\n##  \n\n\n\n## N\n\n\n\n## e\n\n\n\n## t\n\n\n\n## w\n\n\n\n## o\n\n\n\n## r\n\n\n\n## k\n\n",
+    "report_json": {
+      "title": "Blockchain Network and Nodes Community",
+      "summary": "Unstructured Simplicity",
+      "rating": 7.0,
+      "rating_explanation": "The impact severity rating is relatively high due to the critical role of nodes in ensuring the security and trustworthiness of the blockchain network.",
+      "findings": "[\n        {\n            \"summary\": \"Role of Nodes in the Blockchain Network",
+      "explanation": "Nodes play a critical role in handling transactions within the blockchain. They collect, verify, and add transactions to blocks, which are subsequently appended to the blockchain. This process highlights the interdependence between nodes and transactions, as the security and efficiency of transactions largely depend on the ability of nodes to validate them accurately. A robust node structure enhances transactional integrity and maintains the blockchain's operational continuity."
+    },
+    "level": 1,
+    "title": "Cluster 17",
+    "edges": [
+      [
+        "\"NODES\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"BLOCKCHAIN NETWORK\"",
+        "\"NODES\""
+      ],
+      [
+        "\"CPU POWER\"",
+        "\"NODES\""
+      ],
+      [
+        "\"BLOCKCHAIN NETWORK\"",
+        "\"P2P NETWORK\""
+      ],
+      [
+        "\"NODES\"",
+        "\"UNSTRUCTURED SIMPLICITY\""
+      ],
+      [
+        "\"CONSENSUS MECHANISM\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"CONSENSUS MECHANISM\"",
+        "\"NODES\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"NODES\""
+      ],
+      [
+        "\"P2P NETWORK\"",
+        "\"TRANSACTIONS\""
+      ]
+    ],
+    "nodes": [
+      "\"P2P NETWORK\"",
+      "\"BLOCKCHAIN NETWORK\"",
+      "\"UNSTRUCTURED SIMPLICITY\"",
+      "\"CONSENSUS MECHANISM\"",
+      "\"NODES\""
+    ],
+    "chunk_ids": [
+      "chunk-25535d09f809e5341e9ab7f9e330828d",
+      "chunk-b59954073c13f9f2964da44d7c447d16"
+    ],
+    "occurrence": 0.4,
+    "sub_communities": []
+  },
+  "14": {
+    "report_string": "# Blockchain Metadata and Integrity\n\nMerkle Tree's efficient transaction verification\n\n## [\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## {\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## \"\n\n\n\n## s\n\n\n\n## u\n\n\n\n## m\n\n\n\n## m\n\n\n\n## a\n\n\n\n## r\n\n\n\n## y\n\n\n\n## \"\n\n\n\n## :\n\n\n\n##  \n\n\n\n## \"\n\n\n\n## B\n\n\n\n## l\n\n\n\n## o\n\n\n\n## c\n\n\n\n## k\n\n\n\n##  \n\n\n\n## H\n\n\n\n## e\n\n\n\n## a\n\n\n\n## d\n\n\n\n## e\n\n\n\n## r\n\n\n\n##  \n\n\n\n## a\n\n\n\n## s\n\n\n\n##  \n\n\n\n## a\n\n\n\n##  \n\n\n\n## c\n\n\n\n## o\n\n\n\n## r\n\n\n\n## n\n\n\n\n## e\n\n\n\n## r\n\n\n\n## s\n\n\n\n## t\n\n\n\n## o\n\n\n\n## n\n\n\n\n## e\n\n\n\n##  \n\n\n\n## o\n\n\n\n## f\n\n\n\n##  \n\n\n\n## b\n\n\n\n## l\n\n\n\n## o\n\n\n\n## c\n\n\n\n## k\n\n\n\n## c\n\n\n\n## h\n\n\n\n## a\n\n\n\n## i\n\n\n\n## n\n\n\n\n##  \n\n\n\n## i\n\n\n\n## n\n\n\n\n## t\n\n\n\n## e\n\n\n\n## g\n\n\n\n## r\n\n\n\n## i\n\n\n\n## t\n\n\n\n## y\n\n",
+    "report_json": {
+      "title": "Blockchain Metadata and Integrity",
+      "summary": "Merkle Tree's efficient transaction verification",
+      "rating": 7.5,
+      "rating_explanation": "The impact severity rating is significant due to the fundamental role these entities play in maintaining the security and integrity of blockchain systems.",
+      "findings": "[\n        {\n            \"summary\": \"Block Header as a cornerstone of blockchain integrity",
+      "explanation": "The Merkle Tree plays a crucial role in the Block Header"
+    },
+    "level": 1,
+    "title": "Cluster 14",
+    "edges": [
+      [
+        "\"BLOCK HEADER\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"CPU\"",
+        "\"NONCE\""
+      ],
+      [
+        "\"BLOCK HEADER\"",
+        "\"MERKLE TREE\""
+      ],
+      [
+        "\"BLOCK HEADER\"",
+        "\"BLOCKCHAIN\""
+      ],
+      [
+        "\"BLOCK HEADER\"",
+        "\"NONCE\""
+      ]
+    ],
+    "nodes": [
+      "\"NONCE\"",
+      "\"BLOCK HEADER\"",
+      "\"MERKLE TREE\"",
+      "\"CPU\""
+    ],
+    "chunk_ids": [
+      "chunk-d85f91a3bce6160db2133aed53c46df6",
+      "chunk-25535d09f809e5341e9ab7f9e330828d"
+    ],
+    "occurrence": 0.4,
+    "sub_communities": []
+  },
+  "16": {
+    "report_string": "# Blockchain Transactions Community\n\nImpact of Transaction Fees\n\n## [\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## {\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## \"\n\n\n\n## s\n\n\n\n## u\n\n\n\n## m\n\n\n\n## m\n\n\n\n## a\n\n\n\n## r\n\n\n\n## y\n\n\n\n## \"\n\n\n\n## :\n\n\n\n##  \n\n\n\n## \"\n\n\n\n## T\n\n\n\n## r\n\n\n\n## a\n\n\n\n## n\n\n\n\n## s\n\n\n\n## a\n\n\n\n## c\n\n\n\n## t\n\n\n\n## i\n\n\n\n## o\n\n\n\n## n\n\n\n\n## s\n\n\n\n##  \n\n\n\n## a\n\n\n\n## s\n\n\n\n##  \n\n\n\n## t\n\n\n\n## h\n\n\n\n## e\n\n\n\n##  \n\n\n\n## c\n\n\n\n## o\n\n\n\n## r\n\n\n\n## e\n\n\n\n##  \n\n\n\n## c\n\n\n\n## o\n\n\n\n## m\n\n\n\n## p\n\n\n\n## o\n\n\n\n## n\n\n\n\n## e\n\n\n\n## n\n\n\n\n## t\n\n",
+    "report_json": {
+      "title": "Blockchain Transactions Community",
+      "summary": "Impact of Transaction Fees",
+      "rating": 7.5,
+      "rating_explanation": "The impact severity rating is high due to the critical role of transactions in the blockchain ecosystem, affecting security and trust within financial systems.",
+      "findings": "[\n        {\n            \"summary\": \"Transactions as the core component",
+      "explanation": "Transaction Fees"
+    },
+    "level": 1,
+    "title": "Cluster 16",
+    "edges": [
+      [
+        "\"DOUBLE-SPENDING\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"INPUTS\"",
+        "\"OUTPUTS\""
+      ],
+      [
+        "\"TRANSACTIONS FEES\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"INPUTS\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"CHAIN\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"DIGITAL SIGNATURES\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"MULTI-INPUT TRANSACTIONS\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"PUBLIC HISTORY OF TRANSACTIONS\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"CONSENSUS MECHANISM\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"PROOF-OF-WORK\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"CHAIN\"",
+        "\"INPUTS\""
+      ],
+      [
+        "\"NETWORK NODES\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"OUTPUTS\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"SIMPLIFIED METHOD\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"P2P NETWORK\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"FULL BLOCK\"",
+        "\"TRANSACTIONS\""
+      ]
+    ],
+    "nodes": [
+      "\"TRANSACTIONS FEES\"",
+      "\"SIMPLIFIED METHOD\"",
+      "\"MULTI-INPUT TRANSACTIONS\"",
+      "\"CHAIN\"",
+      "\"TRANSACTIONS\"",
+      "\"OUTPUTS\"",
+      "\"INPUTS\""
+    ],
+    "chunk_ids": [
+      "chunk-cf5435cdf1920a0c57737d73e5cb8737",
+      "chunk-25535d09f809e5341e9ab7f9e330828d",
+      "chunk-b59954073c13f9f2964da44d7c447d16"
+    ],
+    "occurrence": 0.6,
+    "sub_communities": []
+  },
+  "11": {
+    "report_string": "# Mining Difficulty and Exponential Growth in Blockchain\n\nImpact of Competitive Mining on Network Security\n\n## [\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## {\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## \"\n\n\n\n## s\n\n\n\n## u\n\n\n\n## m\n\n\n\n## m\n\n\n\n## a\n\n\n\n## r\n\n\n\n## y\n\n\n\n## \"\n\n\n\n## :\n\n\n\n##  \n\n\n\n## \"\n\n\n\n## I\n\n\n\n## m\n\n\n\n## p\n\n\n\n## o\n\n\n\n## r\n\n\n\n## t\n\n\n\n## a\n\n\n\n## n\n\n\n\n## c\n\n\n\n## e\n\n\n\n##  \n\n\n\n## o\n\n\n\n## f\n\n\n\n##  \n\n\n\n## M\n\n\n\n## i\n\n\n\n## n\n\n\n\n## i\n\n\n\n## n\n\n\n\n## g\n\n\n\n##  \n\n\n\n## D\n\n\n\n## i\n\n\n\n## f\n\n\n\n## f\n\n\n\n## i\n\n\n\n## c\n\n\n\n## u\n\n\n\n## l\n\n\n\n## t\n\n\n\n## y\n\n\n\n##  \n\n\n\n## i\n\n\n\n## n\n\n\n\n##  \n\n\n\n## B\n\n\n\n## l\n\n\n\n## o\n\n\n\n## c\n\n\n\n## k\n\n\n\n## c\n\n\n\n## h\n\n\n\n## a\n\n\n\n## i\n\n\n\n## n\n\n",
+    "report_json": {
+      "title": "Mining Difficulty and Exponential Growth in Blockchain",
+      "summary": "Impact of Competitive Mining on Network Security",
+      "rating": 6.0,
+      "rating_explanation": "The impact severity rating is moderate due to the essential role these concepts play in the stability and security of blockchain networks.",
+      "findings": "[\n        {\n            \"summary\": \"Importance of Mining Difficulty in Blockchain",
+      "explanation": "As mining becomes more competitive, the Mining Difficulty increasingly reflects the growing capabilities of mining hardware. This relationship indicates that as more advanced mining technology enters the market, the changes in Mining Difficulty can either strengthen or weaken network security. Ultimately, a well-calibrated Mining Difficulty ensures that the network remains resilient against malicious activities while encouraging legitimate participants."
+    },
+    "level": 1,
+    "title": "Cluster 11",
+    "edges": [
+      [
+        "\"MINING DIFFICULTY\"",
+        "\"PROOF-OF-WORK\""
+      ],
+      [
+        "\"EXPONENTIAL GROWTH\"",
+        "\"MINING DIFFICULTY\""
+      ]
+    ],
+    "nodes": [
+      "\"MINING DIFFICULTY\"",
+      "\"EXPONENTIAL GROWTH\""
+    ],
+    "chunk_ids": [
+      "chunk-25535d09f809e5341e9ab7f9e330828d"
+    ],
+    "occurrence": 0.2,
+    "sub_communities": []
+  },
+  "2": {
+    "report_string": "# Bitcoin and Blockchain Technology Community\n\nAddressing the Double-Spending Problem\n\n## [\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## {\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## \"\n\n\n\n## s\n\n\n\n## u\n\n\n\n## m\n\n\n\n## m\n\n\n\n## a\n\n\n\n## r\n\n\n\n## y\n\n\n\n## \"\n\n\n\n## :\n\n\n\n##  \n\n\n\n## \"\n\n\n\n## C\n\n\n\n## e\n\n\n\n## n\n\n\n\n## t\n\n\n\n## r\n\n\n\n## a\n\n\n\n## l\n\n\n\n##  \n\n\n\n## R\n\n\n\n## o\n\n\n\n## l\n\n\n\n## e\n\n\n\n##  \n\n\n\n## o\n\n\n\n## f\n\n\n\n##  \n\n\n\n## B\n\n\n\n## i\n\n\n\n## t\n\n\n\n## c\n\n\n\n## o\n\n\n\n## i\n\n\n\n## n\n\n\n\n##  \n\n\n\n## i\n\n\n\n## n\n\n\n\n##  \n\n\n\n## D\n\n\n\n## i\n\n\n\n## g\n\n\n\n## i\n\n\n\n## t\n\n\n\n## a\n\n\n\n## l\n\n\n\n##  \n\n\n\n## C\n\n\n\n## u\n\n\n\n## r\n\n\n\n## r\n\n\n\n## e\n\n\n\n## n\n\n\n\n## c\n\n\n\n## y\n\n",
+    "report_json": {
+      "title": "Bitcoin and Blockchain Technology Community",
+      "summary": "Addressing the Double-Spending Problem",
+      "rating": 8.0,
+      "rating_explanation": "The impact severity rating is high due to the widespread implications and influence of Bitcoin as a revolutionary financial system that challenges traditional banking methods.",
+      "findings": "[\n        {\n            \"summary\": \"Central Role of Bitcoin in Digital Currency",
+      "explanation": "The double-spending problem poses a"
+    },
+    "level": 0,
+    "title": "Cluster 2",
+    "edges": [
+      [
+        "\"BLOCKCHAIN\"",
+        "\"DIGITAL COIN\""
+      ],
+      [
+        "\"ONLINE PAYMENTS\"",
+        "\"PEER-TO-PEER NETWORK\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"MINING\""
+      ],
+      [
+        "\"GOLD MINERS\"",
+        "\"MINING\""
+      ],
+      [
+        "\"DIGITAL COIN\"",
+        "\"ONLINE PAYMENTS\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"DOUBLE-SPENDING PROBLEM\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"PHYSICAL CURRENCY\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"PEER-TO-PEER NETWORK\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"FINANCIAL INSTITUTIONS\""
+      ],
+      [
+        "\"DOUBLE-SPENDING PROBLEM\"",
+        "\"PEER-TO-PEER NETWORK\""
+      ],
+      [
+        "\"DOUBLE-SPENDING PROBLEM\"",
+        "\"FINANCIAL INSTITUTION\""
+      ],
+      [
+        "\"HASHCASH\"",
+        "\"PROOF-OF-WORK\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"HASH FUNCTION\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"PROOF-OF-WORK\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"DIGITAL COIN\""
+      ],
+      [
+        "\"MINING\"",
+        "\"PROOF-OF-WORK\""
+      ],
+      [
+        "\"MINING\"",
+        "\"TRANSACTION FEES\""
+      ],
+      [
+        "\"CPU POWER\"",
+        "\"PROOF-OF-WORK\""
+      ],
+      [
+        "\"PEER-TO-PEER NETWORK\"",
+        "\"PROOF-OF-WORK\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"BLOCKCHAIN\""
+      ],
+      [
+        "\"PROOF-OF-WORK\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"TRANSACTION VALUE\""
+      ],
+      [
+        "\"EXPONENTIAL GROWTH\"",
+        "\"MINING DIFFICULTY\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"TRANSACTION FEES\""
+      ],
+      [
+        "\"DOUBLE-SPENDING PROBLEM\"",
+        "\"PROOF-OF-WORK\""
+      ],
+      [
+        "\"MINING DIFFICULTY\"",
+        "\"PROOF-OF-WORK\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"DIGITAL SIGNATURES\""
+      ],
+      [
+        "\"DIGITAL COIN\"",
+        "\"ESCROW MECHANISM\""
+      ],
+      [
+        "\"ONLINE PAYMENTS\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"ONLINE PAYMENTS\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"SATOSHI NAKAMOTO\""
+      ]
+    ],
+    "nodes": [
+      "\"SATOSHI NAKAMOTO\"",
+      "\"TRANSACTION FEES\"",
+      "\"HASHCASH\"",
+      "\"PROOF-OF-WORK\"",
+      "\"ONLINE PAYMENTS\"",
+      "\"BITCOIN\"",
+      "\"PHYSICAL CURRENCY\"",
+      "\"DIGITAL COIN\"",
+      "\"FINANCIAL INSTITUTION\"",
+      "\"DOUBLE-SPENDING PROBLEM\"",
+      "\"PEER-TO-PEER NETWORK\"",
+      "\"ESCROW MECHANISM\"",
+      "\"MINING\"",
+      "\"MINING DIFFICULTY\"",
+      "\"EXPONENTIAL GROWTH\""
+    ],
+    "chunk_ids": [
+      "chunk-791d2acd2d1a49a5745b577a79633aa1",
+      "",
+      "chunk-d85f91a3bce6160db2133aed53c46df6",
+      "chunk-25535d09f809e5341e9ab7f9e330828d",
+      "chunk-b59954073c13f9f2964da44d7c447d16"
+    ],
+    "occurrence": 1.0,
+    "sub_communities": [
+      "9",
+      "11",
+      "10",
+      "8"
+    ]
+  },
+  "4": {
+    "report_string": "# Blockchain Ecosystem\n\nConsensus mechanisms as security enforcers\n\n## [\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## {\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## \"\n\n\n\n## s\n\n\n\n## u\n\n\n\n## m\n\n\n\n## m\n\n\n\n## a\n\n\n\n## r\n\n\n\n## y\n\n\n\n## \"\n\n\n\n## :\n\n\n\n##  \n\n\n\n## \"\n\n\n\n## B\n\n\n\n## l\n\n\n\n## o\n\n\n\n## c\n\n\n\n## k\n\n\n\n## c\n\n\n\n## h\n\n\n\n## a\n\n\n\n## i\n\n\n\n## n\n\n\n\n##  \n\n\n\n## a\n\n\n\n## s\n\n\n\n##  \n\n\n\n## a\n\n\n\n##  \n\n\n\n## f\n\n\n\n## o\n\n\n\n## u\n\n\n\n## n\n\n\n\n## d\n\n\n\n## a\n\n\n\n## t\n\n\n\n## i\n\n\n\n## o\n\n\n\n## n\n\n\n\n## a\n\n\n\n## l\n\n\n\n##  \n\n\n\n## t\n\n\n\n## e\n\n\n\n## c\n\n\n\n## h\n\n\n\n## n\n\n\n\n## o\n\n\n\n## l\n\n\n\n## o\n\n\n\n## g\n\n\n\n## y\n\n",
+    "report_json": {
+      "title": "Blockchain Ecosystem",
+      "summary": "Consensus mechanisms as security enforcers",
+      "rating": 8.0,
+      "rating_explanation": "The impact severity rating is high due to the critical role of blockchain technology in enabling secure transactions and the potential consequences of vulnerabilities in its structure.",
+      "findings": "[\n        {\n            \"summary\": \"Blockchain as a foundational technology",
+      "explanation": "Consensus mechanisms are fundamental to the operations of blockchain"
+    },
+    "level": 0,
+    "title": "Cluster 4",
+    "edges": [
+      [
+        "\"INPUTS\"",
+        "\"OUTPUTS\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"HASH FUNCTION\""
+      ],
+      [
+        "\"BLOCKCHAIN NETWORK\"",
+        "\"P2P NETWORK\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"DIGITAL COIN\""
+      ],
+      [
+        "\"OUTPUTS\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"P2P NETWORK\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"BLOCK HEADER\"",
+        "\"BLOCKCHAIN\""
+      ],
+      [
+        "\"FULL BLOCK\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"MERKLE BRANCH\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"CHAIN OF BLOCKS\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"TIMESTAMP SERVER\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"CHAIN\""
+      ],
+      [
+        "\"TRANSACTIONS FEES\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"DIGITAL SIGNATURES\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"PROOF-OF-WORK\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"HASH FUNCTION\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"HONEST NODES\""
+      ],
+      [
+        "\"DOUBLE-SPENDING\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"ATTACKER\"",
+        "\"BLOCKCHAIN\""
+      ],
+      [
+        "\"NODES\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"CHAIN\"",
+        "\"INPUTS\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"BLOCKCHAIN\""
+      ],
+      [
+        "\"CONSENSUS MECHANISM\"",
+        "\"NODES\""
+      ],
+      [
+        "\"CONSENSUS MECHANISM\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"PROOF-OF-WORK\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"NODES\""
+      ],
+      [
+        "\"SIMPLIFIED METHOD\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"MULTI-INPUT TRANSACTIONS\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"NETWORK NODES\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"PUBLIC HISTORY OF TRANSACTIONS\""
+      ],
+      [
+        "\"BLOCKCHAIN NETWORK\"",
+        "\"NODES\""
+      ],
+      [
+        "\"CPU POWER\"",
+        "\"NODES\""
+      ],
+      [
+        "\"HASH FUNCTION\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"INPUTS\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"NODES\"",
+        "\"UNSTRUCTURED SIMPLICITY\""
+      ],
+      [
+        "\"NETWORK NODES\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"PUBLIC HISTORY OF TRANSACTIONS\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"HASH FUNCTIONS\""
+      ]
+    ],
+    "nodes": [
+      "\"P2P NETWORK\"",
+      "\"CHAIN\"",
+      "\"PUBLIC HISTORY OF TRANSACTIONS\"",
+      "\"NODES\"",
+      "\"MERKLE BRANCH\"",
+      "\"BLOCKCHAIN NETWORK\"",
+      "\"SIMPLIFIED METHOD\"",
+      "\"MULTI-INPUT TRANSACTIONS\"",
+      "\"UNSTRUCTURED SIMPLICITY\"",
+      "\"BLOCKCHAIN\"",
+      "\"NETWORK NODES\"",
+      "\"INPUTS\"",
+      "\"TIMESTAMP SERVER\"",
+      "\"TRANSACTIONS FEES\"",
+      "\"CHAIN OF BLOCKS\"",
+      "\"TRANSACTIONS\"",
+      "\"OUTPUTS\"",
+      "\"HASH FUNCTION\"",
+      "\"CONSENSUS MECHANISM\""
+    ],
+    "chunk_ids": [
+      "chunk-791d2acd2d1a49a5745b577a79633aa1",
+      "chunk-cf5435cdf1920a0c57737d73e5cb8737",
+      "chunk-d85f91a3bce6160db2133aed53c46df6",
+      "chunk-25535d09f809e5341e9ab7f9e330828d",
+      "chunk-b59954073c13f9f2964da44d7c447d16"
+    ],
+    "occurrence": 1.0,
+    "sub_communities": [
+      "15",
+      "16",
+      "17"
+    ]
+  },
+  "1": {
+    "report_string": "# Blockchain Privacy Models and Digital Signatures\n\nKey Pair Usage in the New Privacy Model\n\n## [\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## {\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## \"\n\n\n\n## s\n\n\n\n## u\n\n\n\n## m\n\n\n\n## m\n\n\n\n## a\n\n\n\n## r\n\n\n\n## y\n\n\n\n## \"\n\n\n\n## :\n\n\n\n##  \n\n\n\n## \"\n\n\n\n## R\n\n\n\n## o\n\n\n\n## l\n\n\n\n## e\n\n\n\n##  \n\n\n\n## o\n\n\n\n## f\n\n\n\n##  \n\n\n\n## D\n\n\n\n## i\n\n\n\n## g\n\n\n\n## i\n\n\n\n## t\n\n\n\n## a\n\n\n\n## l\n\n\n\n##  \n\n\n\n## S\n\n\n\n## i\n\n\n\n## g\n\n\n\n## n\n\n\n\n## a\n\n\n\n## t\n\n\n\n## u\n\n\n\n## r\n\n\n\n## e\n\n\n\n## s\n\n\n\n##  \n\n\n\n## i\n\n\n\n## n\n\n\n\n##  \n\n\n\n## T\n\n\n\n## r\n\n\n\n## a\n\n\n\n## n\n\n\n\n## s\n\n\n\n## a\n\n\n\n## c\n\n\n\n## t\n\n\n\n## i\n\n\n\n## o\n\n\n\n## n\n\n\n\n## s\n\n",
+    "report_json": {
+      "title": "Blockchain Privacy Models and Digital Signatures",
+      "summary": "Key Pair Usage in the New Privacy Model",
+      "rating": 7.5,
+      "rating_explanation": "The impact severity rating is high due to the critical role these technologies play in ensuring the security and integrity of digital financial transactions.",
+      "findings": "[\n        {\n            \"summary\": \"Role of Digital Signatures in Transactions",
+      "explanation": "The concept of the Key Pair is integrated within the New Privacy Model to bolster privacy for transactions on the blockchain. By utilizing a unique key pair for each transaction, the model enhances anonymity while ensuring secure transaction validation. This methodology represents a sophisticated evolution aimed at preserving the confidentiality of user transactions while promoting the principles of transparency inherent in blockchain technology."
+    },
+    "level": 0,
+    "title": "Cluster 1",
+    "edges": [
+      [
+        "\"KEY PAIR\"",
+        "\"NEW PRIVACY MODEL\""
+      ],
+      [
+        "\"PRIVATE KEY\"",
+        "\"PUBLIC KEY\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"DIGITAL SIGNATURES\""
+      ],
+      [
+        "\"KEY PAIR\"",
+        "\"PUBLIC KEY\""
+      ],
+      [
+        "\"DIGITAL SIGNATURES\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"DIGITAL SIGNATURES\"",
+        "\"PUBLIC KEY\""
+      ],
+      [
+        "\"NEW PRIVACY MODEL\"",
+        "\"PRIVACY MODELS\""
+      ],
+      [
+        "\"NEW PRIVACY MODEL\"",
+        "\"TRADITIONAL BANKING MODEL\""
+      ]
+    ],
+    "nodes": [
+      "\"PRIVATE KEY\"",
+      "\"DIGITAL SIGNATURES\"",
+      "\"PRIVACY MODELS\"",
+      "\"KEY PAIR\"",
+      "\"PUBLIC KEY\"",
+      "\"TRADITIONAL BANKING MODEL\"",
+      "\"NEW PRIVACY MODEL\""
+    ],
+    "chunk_ids": [
+      "chunk-791d2acd2d1a49a5745b577a79633aa1",
+      "chunk-cf5435cdf1920a0c57737d73e5cb8737",
+      "chunk-b59954073c13f9f2964da44d7c447d16"
+    ],
+    "occurrence": 0.6,
+    "sub_communities": []
+  },
+  "3": {
+    "report_string": "# Bitcoin Transactions and Blockchain Ecosystem\n\nChallenges with Double-Spending in Transactions\n\n## [\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## {\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## \"\n\n\n\n## s\n\n\n\n## u\n\n\n\n## m\n\n\n\n## m\n\n\n\n## a\n\n\n\n## r\n\n\n\n## y\n\n\n\n## \"\n\n\n\n## :\n\n\n\n##  \n\n\n\n## \"\n\n\n\n## C\n\n\n\n## e\n\n\n\n## n\n\n\n\n## t\n\n\n\n## r\n\n\n\n## a\n\n\n\n## l\n\n\n\n## i\n\n\n\n## t\n\n\n\n## y\n\n\n\n##  \n\n\n\n## o\n\n\n\n## f\n\n\n\n##  \n\n\n\n## T\n\n\n\n## r\n\n\n\n## a\n\n\n\n## n\n\n\n\n## s\n\n\n\n## a\n\n\n\n## c\n\n\n\n## t\n\n\n\n## i\n\n\n\n## o\n\n\n\n## n\n\n\n\n## s\n\n\n\n##  \n\n\n\n## i\n\n\n\n## n\n\n\n\n##  \n\n\n\n## B\n\n\n\n## i\n\n\n\n## t\n\n\n\n## c\n\n\n\n## o\n\n\n\n## i\n\n\n\n## n\n\n\n\n##  \n\n\n\n## E\n\n\n\n## c\n\n\n\n## o\n\n\n\n## s\n\n\n\n## y\n\n\n\n## s\n\n\n\n## t\n\n\n\n## e\n\n\n\n## m\n\n",
+    "report_json": {
+      "title": "Bitcoin Transactions and Blockchain Ecosystem",
+      "summary": "Challenges with Double-Spending in Transactions",
+      "rating": 7.5,
+      "rating_explanation": "The impact severity rating is high due to the substantial influence of Bitcoin transactions on the financial system and the potential for disruption caused by new technologies.",
+      "findings": "[\n        {\n            \"summary\": \"Centrality of Transactions in Bitcoin Ecosystem",
+      "explanation": "Double-Spending represents a critical risk in digital currency transactions"
+    },
+    "level": 0,
+    "title": "Cluster 3",
+    "edges": [
+      [
+        "\"FINANCIAL INSTITUTIONS\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"CASUAL TRANSACTIONS\"",
+        "\"TRANSACTION COSTS\""
+      ],
+      [
+        "\"TRANSACTION FEE\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"DISPUTES\"",
+        "\"FINANCIAL INSTITUTIONS\""
+      ],
+      [
+        "\"BLOCK HEADER\"",
+        "\"BLOCKCHAIN\""
+      ],
+      [
+        "\"BLOCK HEADER\"",
+        "\"NONCE\""
+      ],
+      [
+        "\"GREEDY ATTACKER\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"FINANCIAL INSTITUTIONS\""
+      ],
+      [
+        "\"CPU\"",
+        "\"NONCE\""
+      ],
+      [
+        "\"BLOCK HEADER\"",
+        "\"MERKLE TREE\""
+      ],
+      [
+        "\"TRANSACTION VALUE\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"DOUBLE-SPENDING\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"FINANCIAL INSTITUTIONS\"",
+        "\"TRANSACTION COSTS\""
+      ],
+      [
+        "\"NODES\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"BLOCK HEADER\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"BITCOIN\"",
+        "\"TRANSACTION VALUE\""
+      ],
+      [
+        "\"DOUBLE-SPENDING\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"HASH FUNCTION\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"ONLINE PAYMENTS\"",
+        "\"TRANSACTION\""
+      ]
+    ],
+    "nodes": [
+      "\"FINANCIAL INSTITUTIONS\"",
+      "\"CASUAL TRANSACTIONS\"",
+      "\"TRANSACTION\"",
+      "\"CPU\"",
+      "\"BLOCK HEADER\"",
+      "\"DOUBLE-SPENDING\"",
+      "\"TRANSACTION VALUE\"",
+      "\"TRANSACTION COSTS\"",
+      "\"MERKLE TREE\"",
+      "\"NONCE\"",
+      "\"DISPUTES\""
+    ],
+    "chunk_ids": [
+      "chunk-791d2acd2d1a49a5745b577a79633aa1",
+      "chunk-25535d09f809e5341e9ab7f9e330828d",
+      "chunk-d85f91a3bce6160db2133aed53c46df6",
+      "chunk-b59954073c13f9f2964da44d7c447d16"
+    ],
+    "occurrence": 0.8,
+    "sub_communities": [
+      "14",
+      "13",
+      "12"
+    ]
+  },
+  "7": {
+    "report_string": "# Blockchain Integrity and Security Community\n\nThreat of Greedy Attackers\n\n## [\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## {\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## \"\n\n\n\n## s\n\n\n\n## u\n\n\n\n## m\n\n\n\n## m\n\n\n\n## a\n\n\n\n## r\n\n\n\n## y\n\n\n\n## \"\n\n\n\n## :\n\n\n\n##  \n\n\n\n## \"\n\n\n\n## R\n\n\n\n## o\n\n\n\n## l\n\n\n\n## e\n\n\n\n##  \n\n\n\n## o\n\n\n\n## f\n\n\n\n##  \n\n\n\n## H\n\n\n\n## o\n\n\n\n## n\n\n\n\n## e\n\n\n\n## s\n\n\n\n## t\n\n\n\n##  \n\n\n\n## N\n\n\n\n## o\n\n\n\n## d\n\n\n\n## e\n\n\n\n## s\n\n\n\n##  \n\n\n\n## i\n\n\n\n## n\n\n\n\n##  \n\n\n\n## N\n\n\n\n## e\n\n\n\n## t\n\n\n\n## w\n\n\n\n## o\n\n\n\n## r\n\n\n\n## k\n\n\n\n##  \n\n\n\n## S\n\n\n\n## e\n\n\n\n## c\n\n\n\n## u\n\n\n\n## r\n\n\n\n## i\n\n\n\n## t\n\n\n\n## y\n\n",
+    "report_json": {
+      "title": "Blockchain Integrity and Security Community",
+      "summary": "Threat of Greedy Attackers",
+      "rating": 7.5,
+      "rating_explanation": "The impact severity rating is high due to the critical importance of maintaining security and integrity against potential threats to the blockchain network.",
+      "findings": "[\n        {\n            \"summary\": \"Role of Honest Nodes in Network Security",
+      "explanation": "Greedy Attackers symbolize potential risks to blockchain integrity, capable of dominating computational resources to manipulate transactions. Their ability to outpace Honest Nodes in processing power places the network at risk, necessitating a vigilant stance from participants committed to protecting the system. Understanding this threat is not only critical for current security strategies, but it also drives ongoing developments in consensus mechanisms to further fortify blockchain networks."
+    },
+    "level": 0,
+    "title": "Cluster 7",
+    "edges": [
+      [
+        "\"CPU POWER\"",
+        "\"ELECTRICITY\""
+      ],
+      [
+        "\"CPU POWER\"",
+        "\"NODES\""
+      ],
+      [
+        "\"HONEST NODES\"",
+        "\"MAJORITY DECISION MAKING\""
+      ],
+      [
+        "\"GREEDY ATTACKER\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"CPU POWER\"",
+        "\"PROOF-OF-WORK\""
+      ],
+      [
+        "\"CPU POWER\"",
+        "\"ELECTRICITY COSTS\""
+      ],
+      [
+        "\"CPU POWER\"",
+        "\"CPU TIME\""
+      ],
+      [
+        "\"CPU POWER\"",
+        "\"GREEDY ATTACKER\""
+      ],
+      [
+        "\"CPU POWER\"",
+        "\"MAJORITY CONTROL\""
+      ],
+      [
+        "\"HONEST NODES\"",
+        "\"MAJORITY CONTROL\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"HONEST NODES\""
+      ],
+      [
+        "\"MAJORITY CONTROL\"",
+        "\"MAJORITY DECISION MAKING\""
+      ]
+    ],
+    "nodes": [
+      "\"ELECTRICITY\"",
+      "\"HONEST NODES\"",
+      "\"GREEDY ATTACKER\"",
+      "\"MAJORITY DECISION MAKING\"",
+      "\"CPU POWER\"",
+      "\"CPU TIME\"",
+      "\"MAJORITY CONTROL\"",
+      "\"ELECTRICITY COSTS\""
+    ],
+    "chunk_ids": [
+      "chunk-791d2acd2d1a49a5745b577a79633aa1",
+      "chunk-cf5435cdf1920a0c57737d73e5cb8737",
+      "chunk-d85f91a3bce6160db2133aed53c46df6",
+      "chunk-25535d09f809e5341e9ab7f9e330828d",
+      "chunk-b59954073c13f9f2964da44d7c447d16"
+    ],
+    "occurrence": 1.0,
+    "sub_communities": []
+  },
+  "6": {
+    "report_string": "# Blockchain Technology and Its Core Components\n\nSHA-256's application in proof-of-work\n\n## [\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## {\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## \"\n\n\n\n## s\n\n\n\n## u\n\n\n\n## m\n\n\n\n## m\n\n\n\n## a\n\n\n\n## r\n\n\n\n## y\n\n\n\n## \"\n\n\n\n## :\n\n\n\n##  \n\n\n\n## \"\n\n\n\n## B\n\n\n\n## l\n\n\n\n## o\n\n\n\n## c\n\n\n\n## k\n\n\n\n## s\n\n\n\n##  \n\n\n\n## a\n\n\n\n## s\n\n\n\n##  \n\n\n\n## f\n\n\n\n## u\n\n\n\n## n\n\n\n\n## d\n\n\n\n## a\n\n\n\n## m\n\n\n\n## e\n\n\n\n## n\n\n\n\n## t\n\n\n\n## a\n\n\n\n## l\n\n\n\n##  \n\n\n\n## b\n\n\n\n## l\n\n\n\n## o\n\n\n\n## c\n\n\n\n## k\n\n\n\n## c\n\n\n\n## h\n\n\n\n## a\n\n\n\n## i\n\n\n\n## n\n\n\n\n##  \n\n\n\n## c\n\n\n\n## o\n\n\n\n## m\n\n\n\n## p\n\n\n\n## o\n\n\n\n## n\n\n\n\n## e\n\n\n\n## n\n\n\n\n## t\n\n\n\n## s\n\n",
+    "report_json": {
+      "title": "Blockchain Technology and Its Core Components",
+      "summary": "SHA-256's application in proof-of-work",
+      "rating": 6.5,
+      "rating_explanation": "The impact severity rating indicates a significant importance of blockchain technology for data security and integrity in various applications.",
+      "findings": "[\n        {\n            \"summary\": \"Blocks as fundamental blockchain components",
+      "explanation": "SHA-256 is a specific type of Hash Function utilized in blockchain technology"
+    },
+    "level": 0,
+    "title": "Cluster 6",
+    "edges": [
+      [
+        "\"BLOCKS\"",
+        "\"DISK SPACE\""
+      ],
+      [
+        "\"BLOCKS\"",
+        "\"HASH FUNCTIONS\""
+      ],
+      [
+        "\"DISK SPACE\"",
+        "\"OLD BLOCKS\""
+      ],
+      [
+        "\"HASH FUNCTIONS\"",
+        "\"SHA-256\""
+      ],
+      [
+        "\"BLOCKS\"",
+        "\"OLD BLOCKS\""
+      ],
+      [
+        "\"BLOCKCHAIN\"",
+        "\"HASH FUNCTIONS\""
+      ]
+    ],
+    "nodes": [
+      "\"OLD BLOCKS\"",
+      "\"SHA-256\"",
+      "\"BLOCKS\"",
+      "\"DISK SPACE\"",
+      "\"HASH FUNCTIONS\""
+    ],
+    "chunk_ids": [
+      "chunk-25535d09f809e5341e9ab7f9e330828d",
+      "chunk-d85f91a3bce6160db2133aed53c46df6"
+    ],
+    "occurrence": 0.4,
+    "sub_communities": []
+  },
+  "5": {
+    "report_string": "# Blockchain Mining and Transaction Dynamics\n\nConcept of Inflation Free system\n\n## [\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## {\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## \"\n\n\n\n## s\n\n\n\n## u\n\n\n\n## m\n\n\n\n## m\n\n\n\n## a\n\n\n\n## r\n\n\n\n## y\n\n\n\n## \"\n\n\n\n## :\n\n\n\n##  \n\n\n\n## \"\n\n\n\n## N\n\n\n\n## e\n\n\n\n## w\n\n\n\n##  \n\n\n\n## C\n\n\n\n## o\n\n\n\n## i\n\n\n\n## n\n\n\n\n## s\n\n\n\n##  \n\n\n\n## a\n\n\n\n## s\n\n\n\n##  \n\n\n\n## t\n\n\n\n## h\n\n\n\n## e\n\n\n\n##  \n\n\n\n## c\n\n\n\n## o\n\n\n\n## r\n\n\n\n## e\n\n\n\n##  \n\n\n\n## p\n\n\n\n## r\n\n\n\n## o\n\n\n\n## d\n\n\n\n## u\n\n\n\n## c\n\n\n\n## t\n\n",
+    "report_json": {
+      "title": "Blockchain Mining and Transaction Dynamics",
+      "summary": "Concept of Inflation Free system",
+      "rating": 6.0,
+      "rating_explanation": "The impact severity rating is moderate as it reflects the economic implications of mining activities and transaction fees in the cryptocurrency ecosystem.",
+      "findings": "[\n        {\n            \"summary\": \"New Coins as the core product",
+      "explanation": "An Inflation Free state in the blockchain occurs when rewards for miners"
+    },
+    "level": 0,
+    "title": "Cluster 5",
+    "edges": [
+      [
+        "\"INFLATION FREE\"",
+        "\"TRANSACTION FEE\""
+      ],
+      [
+        "\"INFLATION\"",
+        "\"NEW COINS\""
+      ],
+      [
+        "\"TRANSACTION FEE\"",
+        "\"TRANSACTION\""
+      ],
+      [
+        "\"MINED COINS\"",
+        "\"NEW COINS\""
+      ],
+      [
+        "\"GOLD MINERS\"",
+        "\"NEW COINS\""
+      ],
+      [
+        "\"NEW COINS\"",
+        "\"TRANSACTION FEE\""
+      ],
+      [
+        "\"GOLD MINERS\"",
+        "\"MINING\""
+      ]
+    ],
+    "nodes": [
+      "\"INFLATION FREE\"",
+      "\"NEW COINS\"",
+      "\"TRANSACTION FEE\"",
+      "\"GOLD MINERS\"",
+      "\"MINED COINS\"",
+      "\"INFLATION\""
+    ],
+    "chunk_ids": [
+      "chunk-25535d09f809e5341e9ab7f9e330828d",
+      "chunk-d85f91a3bce6160db2133aed53c46df6"
+    ],
+    "occurrence": 0.4,
+    "sub_communities": []
+  },
+  "0": {
+    "report_string": "# Race Between Chains and Blockchain Integrity\n\nImportance of Full Blocks for transaction verification\n\n## [\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## {\n\n\n\n## \n\n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n##  \n\n\n\n## \"\n\n\n\n## s\n\n\n\n## u\n\n\n\n## m\n\n\n\n## m\n\n\n\n## a\n\n\n\n## r\n\n\n\n## y\n\n\n\n## \"\n\n\n\n## :\n\n\n\n##  \n\n\n\n## \"\n\n\n\n## T\n\n\n\n## h\n\n\n\n## r\n\n\n\n## e\n\n\n\n## a\n\n\n\n## t\n\n\n\n##  \n\n\n\n## p\n\n\n\n## o\n\n\n\n## s\n\n\n\n## e\n\n\n\n## d\n\n\n\n##  \n\n\n\n## b\n\n\n\n## y\n\n\n\n##  \n\n\n\n## t\n\n\n\n## h\n\n\n\n## e\n\n\n\n##  \n\n\n\n## A\n\n\n\n## t\n\n\n\n## t\n\n\n\n## a\n\n\n\n## c\n\n\n\n## k\n\n\n\n## e\n\n\n\n## r\n\n\n\n##  \n\n\n\n## t\n\n\n\n## o\n\n\n\n##  \n\n\n\n## B\n\n\n\n## l\n\n\n\n## o\n\n\n\n## c\n\n\n\n## k\n\n\n\n## c\n\n\n\n## h\n\n\n\n## a\n\n\n\n## i\n\n\n\n## n\n\n",
+    "report_json": {
+      "title": "Race Between Chains and Blockchain Integrity",
+      "summary": "Importance of Full Blocks for transaction verification",
+      "rating": 7.5,
+      "rating_explanation": "The impact severity rating is high due to the significant potential threat posed by attackers in disrupting blockchain integrity, thereby affecting transactional reliability.",
+      "findings": "[\n        {\n            \"summary\": \"Threat posed by the Attacker to Blockchain",
+      "explanation": "Full Blocks are essential for the verification and confirmation"
+    },
+    "level": 0,
+    "title": "Cluster 0",
+    "edges": [
+      [
+        "\"ATTACKER\"",
+        "\"FULL BLOCK\""
+      ],
+      [
+        "\"ATTACKER\"",
+        "\"RACE BETWEEN CHAINS\""
+      ],
+      [
+        "\"ATTACKER\"",
+        "\"BLOCKCHAIN\""
+      ],
+      [
+        "\"PROBABILITY OF CATCHING UP\"",
+        "\"RACE BETWEEN CHAINS\""
+      ],
+      [
+        "\"DEFICIT\"",
+        "\"RACE BETWEEN CHAINS\""
+      ],
+      [
+        "\"GAMBLER'S RUIN PROBLEM\"",
+        "\"RACE BETWEEN CHAINS\""
+      ],
+      [
+        "\"DEFICIT\"",
+        "\"PROBABILITY OF CATCHING UP\""
+      ],
+      [
+        "\"FULL BLOCK\"",
+        "\"TRANSACTIONS\""
+      ],
+      [
+        "\"GAMBLER'S RUIN PROBLEM\"",
+        "\"PROBABILITY OF CATCHING UP\""
+      ]
+    ],
+    "nodes": [
+      "\"PROBABILITY OF CATCHING UP\"",
+      "\"DEFICIT\"",
+      "\"GAMBLER'S RUIN PROBLEM\"",
+      "\"FULL BLOCK\"",
+      "\"RACE BETWEEN CHAINS\"",
+      "\"ATTACKER\""
+    ],
+    "chunk_ids": [
+      "chunk-cf5435cdf1920a0c57737d73e5cb8737"
+    ],
+    "occurrence": 0.2,
+    "sub_communities": []
+  }
+}
