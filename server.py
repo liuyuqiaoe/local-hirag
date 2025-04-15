@@ -1,4 +1,5 @@
 """HiRAG MCP Server"""
+
 import asyncio
 import logging
 from contextlib import asynccontextmanager
@@ -169,7 +170,7 @@ async def hi_search(
     query: str, max_tokens: Optional[int] = None, ctx: Context = None
 ) -> str:
     """
-    Perform a hybrid search combining aspects of local and global knowledge.
+    Perform a hybrid search combining both local and global knowledge over the knowledge base. (default to use)
 
     Args:
         query: The search query text
