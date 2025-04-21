@@ -156,7 +156,10 @@ async def naive_search(
         logger.error(f"Error in HiRAG instance access: {e}")
         return f"{str(e)}"
 
-    param = QueryParam(mode="naive")
+    param = QueryParam(
+        mode="naive",
+        only_need_context=True
+        )
     if max_tokens is not None:
         param.max_tokens = max_tokens
 
@@ -186,7 +189,10 @@ async def hi_search(
         return f"{str(e)}"
 
     timeout_seconds = 100
-    param = QueryParam(mode="hi")
+    param = QueryParam(
+        mode="hi", 
+        only_need_context=True
+    )
     if max_tokens is not None:
         param.max_tokens = max_tokens
 
