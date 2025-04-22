@@ -191,7 +191,8 @@ async def hi_search(
     timeout_seconds = 100
     param = QueryParam(
         mode="hi", 
-        only_need_context=True
+        only_need_context=True,
+        top_k=10
     )
     if max_tokens is not None:
         param.max_tokens = max_tokens
