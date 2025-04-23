@@ -71,7 +71,7 @@ Starting MCP inspector...
 In the opened browser, click on: Connect &rarr; Tools &rarr; List tools &rarr; Run Tool
 
 If successfully implemented, you'll be able to see the results of the tool execution as shown below.
-![inspector demo](../assets/inspector_demo.png)
+![inspector demo](images/inspector_demo.png)
 
 ### References
 - [Quickstart For Server Developers](https://modelcontextprotocol.io/quickstart/server)
