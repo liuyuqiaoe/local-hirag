@@ -945,22 +945,23 @@ def _community_report_json_to_str(parsed_output: dict) -> str:
     """refer official graphrag: index/graph/extractors/community_reports"""
     title = parsed_output.get("title", "Report")
     summary = parsed_output.get("summary", "")
-    findings = parsed_output.get("findings", [])
+    # findings = parsed_output.get("findings", [])
 
-    def finding_summary(finding: dict):
-        if isinstance(finding, str):
-            return finding
-        return finding.get("summary")
+    # def finding_summary(finding: dict):
+    #     if isinstance(finding, str):
+    #         return finding
+    #     return finding.get("summary")
 
-    def finding_explanation(finding: dict):
-        if isinstance(finding, str):
-            return ""
-        return finding.get("explanation")
+    # def finding_explanation(finding: dict):
+    #     if isinstance(finding, str):
+    #         return ""
+    #     return finding.get("explanation")
 
-    report_sections = "\n\n".join(
-        f"## {finding_summary(f)}\n\n{finding_explanation(f)}" for f in findings
-    )
-    return f"# {title}\n\n{summary}\n\n{report_sections}"
+    # report_sections = "\n\n".join(
+    #     f"## {finding_summary(f)}\n\n{finding_explanation(f)}" for f in findings
+    # )
+    # return f"# {title}\n\n{summary}\n\n{report_sections}"
+    return f"# {title}\n\n{summary}" #TODO: temporary remove the report sections\n\n, since the findings format is 
 
 
 async def generate_community_report(
