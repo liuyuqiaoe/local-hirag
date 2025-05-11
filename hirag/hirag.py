@@ -106,8 +106,8 @@ class HiRAG:
 
     # text embedding
     embedding_func: EmbeddingFunc = field(default_factory=lambda: openai_embedding)
-    embedding_batch_num: int = 32
-    embedding_func_max_async: int = 8
+    embedding_batch_num: int = 4
+    embedding_func_max_async: int = 4
     query_better_than_threshold: float = 0.2
 
     # LLM
@@ -115,10 +115,10 @@ class HiRAG:
     # best_model_func: callable = gpt_35_turbo_complete
     best_model_func: callable = gpt_4o_mini_complete
     best_model_max_token_size: int = 32768
-    best_model_max_async: int = 8
+    best_model_max_async: int = 4
     cheap_model_func: callable = gpt_35_turbo_complete
     cheap_model_max_token_size: int = 32768
-    cheap_model_max_async: int = 8
+    cheap_model_max_async: int = 4
 
     # entity extraction
     entity_extraction_func: callable = extract_entities
