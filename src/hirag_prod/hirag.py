@@ -60,7 +60,11 @@ class HiRAG:
         # Load the document from the document path
         logger.info(f"Loading the document from the document path: {document_path}")
         documents = load_document(
-            document_path, content_type, document_meta, loader_configs
+            document_path,
+            content_type,
+            document_meta,
+            loader_configs,
+            loader_type="mineru",
         )
         logger.info(f"Loaded {len(documents)} documents")
 
