@@ -1,9 +1,9 @@
 
 import pytest
 
-from hirag_mcp._llm import gpt_4o_mini_complete
-from hirag_mcp.schema import Entity, Relation
-from hirag_mcp.storage.networkx import NetworkXGDB
+from hirag_prod._llm import gpt_4o_mini_complete
+from hirag_prod.schema import Entity, Relation
+from hirag_prod.storage.networkx import NetworkXGDB
 
 
 @pytest.mark.asyncio

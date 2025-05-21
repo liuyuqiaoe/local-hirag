@@ -2,10 +2,10 @@ import os
 
 import pytest
 
-from hirag_mcp._llm import openai_embedding
-from hirag_mcp.schema import Entity
-from hirag_mcp.storage.lancedb import LanceDB
-from hirag_mcp.storage.retrieval_strategy_provider import RetrievalStrategyProvider
+from hirag_prod._llm import openai_embedding
+from hirag_prod.schema import Entity
+from hirag_prod.storage.lancedb import LanceDB
+from hirag_prod.storage.retrieval_strategy_provider import RetrievalStrategyProvider
 
 
 @pytest.mark.asyncio

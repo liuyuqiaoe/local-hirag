@@ -1,8 +1,7 @@
 import os
 
-
-from hirag_mcp.chunk import FixTokenChunk
-from hirag_mcp.loader import load_document
+from hirag_prod.chunk import FixTokenChunk
+from hirag_prod.loader import load_document
 
 
 def test_chunk_documents():

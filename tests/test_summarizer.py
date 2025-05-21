@@ -1,8 +1,8 @@
 
 import pytest
 
-from hirag_mcp._llm import gpt_4o_mini_complete
-from hirag_mcp.summarization import TrancatedAggregateSummarizer
+from hirag_prod._llm import gpt_4o_mini_complete
+from hirag_prod.summarization import TrancatedAggregateSummarizer
 
 
 @pytest.mark.asyncio

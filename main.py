@@ -1,6 +1,7 @@
-import os
-from hirag_mcp import HiRAG
 import asyncio
+
+from hirag_prod import HiRAG
+
 
 async def index():
     index = await HiRAG.create()

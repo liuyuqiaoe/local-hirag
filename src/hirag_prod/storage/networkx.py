@@ -6,9 +6,9 @@ from typing import Callable, List, Optional
 
 import networkx as nx
 
-from hirag_mcp.schema import Entity, Relation
-from hirag_mcp.storage.base_gdb import BaseGDB
-from hirag_mcp.summarization import BaseSummarizer, TrancatedAggregateSummarizer
+from hirag_prod.schema import Entity, Relation
+from hirag_prod.storage.base_gdb import BaseGDB
+from hirag_prod.summarization import BaseSummarizer, TrancatedAggregateSummarizer
 
 
 @dataclass
