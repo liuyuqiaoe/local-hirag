@@ -1,9 +1,9 @@
 
 import pytest
 
-from hirag_mcp._llm import gpt_4o_mini_complete
-from hirag_mcp.entity.vanilla import VanillaEntity
-from hirag_mcp.schema import Chunk, Entity, Relation
+from hirag_prod._llm import gpt_4o_mini_complete
+from hirag_prod.entity.vanilla import VanillaEntity
+from hirag_prod.schema import Chunk, Entity, Relation
 
 
 @pytest.mark.asyncio

@@ -2,7 +2,7 @@ import os
 
 import pytest
 
-from hirag_mcp import HiRAG
+from hirag_prod import HiRAG
 
 
 @pytest.mark.asyncio

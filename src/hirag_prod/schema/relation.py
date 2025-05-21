@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from hirag_mcp.schema import Entity
+from hirag_prod.schema import Entity
 
 
 @dataclass
