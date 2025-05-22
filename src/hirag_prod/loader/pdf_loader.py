@@ -2,10 +2,9 @@ import warnings
 from typing import List
 
 from langchain_community import document_loaders
+
 from hirag_prod.loader.base_loader import BaseLoader
 from hirag_prod.loader.markify_loader import markify_client
-
-from hirag_prod._utils import compute_mdhash_id
 from hirag_prod.schema import File
 
 # Suppress PyPDF warnings
@@ -23,9 +22,3 @@ class PDFLoader(BaseLoader):
     def _load(self, document_path: str, **loader_args) -> List[File]:
         raw_docs = self.loader_type(document_path, **loader_args).load()
         return raw_docs
-
-    def _set_doc_metadata(self, files: List[File], document_meta: dict) -> List[File]:
-        for doc in files:
-            document_meta[self.page_number_key] = doc.metadata[self.page_number_key]
-            doc.metadata = document_meta
-            doc.id = compute_mdhash_id(doc.page_content.strip(), prefix="doc-")

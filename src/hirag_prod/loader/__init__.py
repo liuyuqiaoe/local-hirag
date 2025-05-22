@@ -1,18 +1,15 @@
-import time
-from typing import List, Optional, Union, Literal
+from typing import List, Literal, Optional
 
-import requests
-from requests_toolbelt.multipart.encoder import MultipartEncoder
 
 from hirag_prod.schema import File
 
+from .base_loader import BaseLoader
 from .csv_loader import CSVLoader
 from .excel_loader import ExcelLoader
 from .html_loader import HTMLLoader
 from .pdf_loader import PDFLoader
 from .ppt_loader import PowerPointLoader
 from .word_loader import WordLoader
-
 
 DEFAULT_LOADER_CONFIGS = {
     "application/pdf": {
@@ -50,6 +47,58 @@ DEFAULT_LOADER_CONFIGS = {
     },
 }
 
+MARKIFY_LOADER_CONFIGS = {
+    "pdf": {"loader": PDFLoader},
+    "docx": {
+        "loader": WordLoader,
+    },
+    "pptx": {
+        "loader": PowerPointLoader,
+    },
+    "xlsx": {
+        "loader": ExcelLoader,
+    },
+    "jpg": {
+        "loader": BaseLoader,
+    },
+    "png": {
+        "loader": BaseLoader,
+    },
+    "zip": {
+        "loader": BaseLoader,
+    },
+    "txt": {
+        "loader": BaseLoader,
+    },
+    "csv": {
+        "loader": CSVLoader,
+    },
+    "text": {
+        "loader": BaseLoader,
+    },
+    "tsv": {
+        "loader": BaseLoader,
+    },
+    "html": {
+        "loader": HTMLLoader,
+    },
+}
+
+MARKIFY2DEFAULT_LOADER_NAME_MAPPING = {
+    "pdf": "application/pdf",
+    "docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "pptx": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+    "xlsx": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "jpg": "image/jpeg",
+    "png": "image/png",
+    "zip": "application/zip",
+    "txt": "text/plain",
+    "csv": "text/csv",
+    "text": "text/plain",
+    "tsv": "text/tab-separated-values",
+    "html": "text/html",
+}
+
 
 def load_document(
     document_path: str,
@@ -72,7 +121,10 @@ def load_document(
     Returns:
         List[File]: The loaded documents.
     """
-    if loader_configs is None:
+    if loader_configs is None and loader_type == "mineru":
+        loader_configs = MARKIFY_LOADER_CONFIGS
+    elif loader_configs is None and loader_type == "langchain":
+        content_type = MARKIFY2DEFAULT_LOADER_NAME_MAPPING[content_type]
         loader_configs = DEFAULT_LOADER_CONFIGS
 
     if content_type not in loader_configs:

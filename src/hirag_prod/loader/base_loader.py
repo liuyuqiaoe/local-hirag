@@ -6,8 +6,10 @@ from typing import List, Optional, Type
 from langchain_core.document_loaders import BaseLoader as LangchainBaseLoader
 
 from hirag_prod._utils import compute_mdhash_id
-from hirag_prod.schema import File
+from hirag_prod.schema import File, FileMetadata
+
 from .markify_loader import MarkifyClient
+
 
 class BaseLoader(ABC):
     """Base class for all loaders"""
@@ -32,9 +34,16 @@ class BaseLoader(ABC):
         # Create Document objects for each chunk
         docs = []
         for i, chunk in enumerate(text_chunks, start=1):
+            # Only set page number and doc hash here
             doc = File(
+                id=compute_mdhash_id(chunk.strip(), prefix="doc-"),
                 page_content=chunk,
-                metadata={self.page_number_key: i},  # Use chunk index as page number
+                metadata=FileMetadata(
+                    page_number=i,
+                    type="pdf",  # Default to pdf since we're using markify
+                    filename="",  # Empty string as placeholder
+                    uri="",  # Empty string as placeholder
+                ),
             )
             docs.append(doc)
 
@@ -78,10 +87,17 @@ class BaseLoader(ABC):
         self._set_doc_metadata(raw_docs, document_meta)
         return raw_docs
 
-    def _set_doc_metadata(
-        self, docs: List[File], document_meta: dict
-    ) -> List[File]:
-        # TODO(hhy): original page number
+    def _set_doc_metadata(self, docs: List[File], document_meta: dict) -> List[File]:
         for doc in docs:
-            document_meta[self.page_number_key] = doc.metadata[self.page_number_key]
-            doc.metadata = document_meta
+            # Keep the original page number
+            page_number = doc.metadata.page_number
+
+            # Create metadata with all required fields
+            metadata = FileMetadata(
+                page_number=page_number,
+                type=document_meta.get("type", "pdf"),  # Default to pdf
+                filename=document_meta.get("filename", ""),
+                uri=document_meta.get("uri", ""),
+            )
+            doc.metadata = metadata
+        return docs
