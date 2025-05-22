@@ -18,7 +18,3 @@ class PDFLoader(BaseLoader):
         self.loader_type = document_loaders.PyPDFLoader
         self.loader_markify = markify_client
         self.max_output_docs = max_output_docs
-
-    def _load(self, document_path: str, **loader_args) -> List[File]:
-        raw_docs = self.loader_type(document_path, **loader_args).load()
-        return raw_docs
