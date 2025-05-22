@@ -39,6 +39,10 @@ class HiRAG:
         )
     )
 
+    async def initialize_tables(self):
+        self.chunks_table = await self.vdb.db.open_table("chunks")
+        self.entities_table = await self.vdb.db.open_table("entities")
+
     @classmethod
     async def create(cls, **kwargs):
         if kwargs.get("vdb") is None:
@@ -48,7 +52,9 @@ class HiRAG:
                 strategy_provider=RetrievalStrategyProvider(),
             )
             kwargs["vdb"] = lancedb
-        return cls(**kwargs)
+        instance = cls(**kwargs)
+        await instance.initialize_tables()
+        return instance
 
     async def insert_to_kb(
         self,
@@ -109,7 +115,7 @@ class HiRAG:
     async def query_chunks(self, query: str, topk: int = 10):
         return await self.vdb.query(
             query=query,
-            table=await self.vdb.db.open_table("chunks"),
+            table=self.chunks_table,
             topk=topk,
             require_access="public",
             columns_to_select=["text", "document_key", "filename", "private"],
@@ -119,7 +125,7 @@ class HiRAG:
     async def query_entities(self, query: str, topk: int = 10):
         return await self.vdb.query(
             query=query,
-            table=await self.vdb.db.open_table("entities"),
+            table=self.entities_table,
             topk=topk,
             columns_to_select=["text", "document_key", "entity_type", "description"],
             distance_threshold=100,  # a very high threshold to ensure all results are returned

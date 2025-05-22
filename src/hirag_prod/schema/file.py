@@ -5,7 +5,7 @@ from pydantic import BaseModel
 
 
 class FileMetadata(BaseModel):
-    type: Literal[
+    type: Optional[Literal[
         "pdf",
         "docx",
         "pptx",
@@ -18,15 +18,15 @@ class FileMetadata(BaseModel):
         "text",
         "tsv",
         "html",
-    ]
-    filename: str
+    ]] = None
+    filename: Optional[str] = None
     page_number: Optional[int] = None
     # The uri of the file
     # When the file is a local file, the uri is the path to the file
     # When the file is a remote file, the uri is the url of the file
-    uri: str
+    uri: Optional[str] = None
     # Whether the file is private
-    private: bool = False
+    private: Optional[bool] = None
 
 
 class File(Document, BaseModel):
