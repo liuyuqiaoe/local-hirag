@@ -129,5 +129,32 @@ class MarkifyClient:
         }
         return mime_map.get(ext, "application/octet-stream")
 
+    def split_text_by_tokens(self, text: str, max_tokens: int = 8192) -> List[str]:
+        """Split text into chunks based on token limit."""
+        encoding = tiktoken.get_encoding("cl100k_base")
+        tokens = encoding.encode(text)
+        chunks = []
+
+        current_chunk = []
+        current_length = 0
+
+        for token in tokens:
+            if current_length + 1 > max_tokens:
+                # Decode current chunk and add to chunks
+                chunk_text = encoding.decode(current_chunk)
+                chunks.append(chunk_text)
+                current_chunk = [token]
+                current_length = 1
+            else:
+                current_chunk.append(token)
+                current_length += 1
+
+        # Add the last chunk if it's not empty
+        if current_chunk:
+            chunk_text = encoding.decode(current_chunk)
+            chunks.append(chunk_text)
+
+        return chunks
+
 
 markify_client = MarkifyClient(base_url="http://markify:20926")
