@@ -39,6 +39,10 @@ class HiRAG:
         )
     )
 
+    async def initialize_tables(self):
+        self.chunks_table = await self.vdb.db.open_table("chunks")
+        self.entities_table = await self.vdb.db.open_table("entities")
+
     @classmethod
     async def create(cls, **kwargs):
         if kwargs.get("vdb") is None:
@@ -48,7 +52,9 @@ class HiRAG:
                 strategy_provider=RetrievalStrategyProvider(),
             )
             kwargs["vdb"] = lancedb
-        return cls(**kwargs)
+        instance = cls(**kwargs)
+        await instance.initialize_tables()
+        return instance
 
     async def insert_to_kb(
         self,
@@ -103,3 +109,52 @@ class HiRAG:
             # TODO: handle the concurrent upsertion
             for relation in relations:
                 await self.gdb.upsert_relation(relation)
+            # dump the graph
+            await self.gdb.dump()
+
+    async def query_chunks(self, query: str, topk: int = 10):
+        return await self.vdb.query(
+            query=query,
+            table=self.chunks_table,
+            topk=topk,
+            require_access="public",
+            columns_to_select=["text", "document_key", "filename", "private"],
+            distance_threshold=100,  # a very high threshold to ensure all results are returned
+        )
+
+    async def query_entities(self, query: str, topk: int = 10):
+        return await self.vdb.query(
+            query=query,
+            table=self.entities_table,
+            topk=topk,
+            columns_to_select=["text", "document_key", "entity_type", "description"],
+            distance_threshold=100,  # a very high threshold to ensure all results are returned
+        )
+
+    async def query_relations(self, query: str, topk: int = 10):
+        # search the entities
+        recall_entities = await self.query_entities(query, topk)
+        recall_entities = [entity['document_key'] for entity in recall_entities]
+        # search the relations
+        recall_neighbors = []
+        recall_edges = []
+        for entity in recall_entities:
+            neighbors, edges = await self.gdb.query_one_hop(entity)
+            recall_neighbors.extend(neighbors)
+            recall_edges.extend(edges)
+        return recall_neighbors, recall_edges
+    
+    async def query_all(self, query: str, topk: int = 10):
+        # search chunks
+        recall_chunks = await self.query_chunks(query, topk)
+        # search entities
+        recall_entities = await self.query_entities(query, topk)
+        # search relations
+        recall_neighbors, recall_edges = await self.query_relations(query, topk)
+        # merge the results
+        return {
+            "chunks": recall_chunks,
+            "entities": recall_entities,
+            "neighbors": recall_neighbors,
+            "edges": recall_edges,
+        }

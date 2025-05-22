@@ -21,7 +21,21 @@ class BaseLoader(ABC):
 
     def _load(self, document_path: str, **loader_args) -> List[File]:
         raw_docs = self.loader_type(document_path, **loader_args).load()
-        return raw_docs
+        docs = []
+        for i, doc in enumerate(raw_docs, start=1):
+            # Only set page number and doc hash here
+            doc = File(
+                id=compute_mdhash_id(doc.page_content, prefix="doc-"),
+                page_content=doc.page_content,
+                metadata=FileMetadata(
+                    page_number=i,
+                    type=None,
+                    filename=None,
+                    uri=None,
+                ),
+            )
+            docs.append(doc)
+        return docs
 
     def _load_markify(self, document_path: str, mode="advanced") -> List[File]:
         raw_text = self.loader_markify.convert_pdf(file_path=document_path, mode=mode)
@@ -40,9 +54,9 @@ class BaseLoader(ABC):
                 page_content=chunk,
                 metadata=FileMetadata(
                     page_number=i,
-                    type="pdf",  # Default to pdf since we're using markify
-                    filename="",  # Empty string as placeholder
-                    uri="",  # Empty string as placeholder
+                    type=None,
+                    filename=None,
+                    uri=None,
                 ),
             )
             docs.append(doc)
