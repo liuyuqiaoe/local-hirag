@@ -1,9 +1,7 @@
 import asyncio
-import logging  # 添加日志模块
-
+import logging  
 from hirag_prod import HiRAG
 
-# 设置日志
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
