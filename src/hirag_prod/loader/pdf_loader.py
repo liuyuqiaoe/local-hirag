@@ -1,11 +1,9 @@
 import warnings
-from typing import List
 
 from langchain_community import document_loaders
 
 from hirag_prod.loader.base_loader import BaseLoader
 from hirag_prod.loader.markify_loader import markify_client
-from hirag_prod.schema import File
 
 # Suppress PyPDF warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="pypdf")
