@@ -21,7 +21,7 @@ services:
 
   markify:
     image: sagicuhk/markify:latest
-    container_name: "${USER}_markify_service"
+    container_name: "${USER}_markify_hirag_service"
     entrypoint: ["/bin/sh", "/markify/preprocess.sh"]  # just restart to update quickly without rebuilding
     ports:
       - "20926:20926"
