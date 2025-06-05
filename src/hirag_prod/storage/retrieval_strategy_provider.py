@@ -4,6 +4,9 @@ import logging
 from typing import Any, Dict, List, Union
 
 from lancedb.query import AsyncQuery, LanceQueryBuilder
+from lancedb.rerankers import OpenaiReranker
+
+RERANKER_MODEL_NAME = "gpt-4-turbo"
 
 
 class BaseRetrievalStrategyProvider:
@@ -47,9 +50,12 @@ class RetrievalStrategyProvider(BaseRetrievalStrategyProvider):
         return query
 
     def rerank_chunk_query(self, query: AsyncQuery, text: str):
-        # TODO(tatiana): add rerank logic
-        # import lancedb.rerankers as rerankers
-        # query.rerank(rerankers.RRFReranker(), text)
+        # OpenaiReranker works only when query contains a small amount of text content.
+        reranker = OpenaiReranker(
+            model_name=RERANKER_MODEL_NAME,
+            return_score="relevance",
+        )
+        query = query.rerank(reranker=reranker, query_string=text)
         return query
 
     def format_catalog_search_result_to_llm(
